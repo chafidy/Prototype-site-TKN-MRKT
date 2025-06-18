@@ -1,8 +1,4 @@
-Voici le **README complet en Markdown**, tout prêt à être enregistré dans un fichier `README.md` :
 
----
-
-```markdown
 # 🌐 Teknet — Prototype Frontend
 
 Bienvenue dans le dépôt du **prototype frontend de Teknet**, une application web rapide, moderne et modulaire conçue avec les meilleures technologies de l'écosystème JavaScript/TypeScript.
@@ -15,7 +11,7 @@ Bienvenue dans le dépôt du **prototype frontend de Teknet**, une application w
 - 🧩 **shadcn/ui** — Composants UI accessibles, stylés et facilement personnalisables  
 - 🎨 **Tailwind CSS** — Framework CSS utilitaire pour un design rapide et responsive
 
----
+
 
 ## 📁 Structure du projet
 
@@ -134,8 +130,4 @@ Le futur de l’interface utilisateur commence ici avec **Teknet**.
 
 ```
 
----
 
-Tu peux maintenant créer un fichier `README.md` dans le dossier racine de ton projet Teknet et y coller ce contenu.  
-Souhaite-tu aussi que je génère une version anglaise ?
-```
