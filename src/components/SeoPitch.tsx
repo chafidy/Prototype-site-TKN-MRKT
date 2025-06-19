@@ -19,10 +19,7 @@ const SeoPitch = () => {
               <span className="text-[#e30613] font-black">TEKNET GROUP</span> est le premier intégrateur de solutions certifié <span className="text-[#e30613]">ISO 9001:2015</span> à Madagascar
             </h2>
             
-            <p className="text-lg text-[#575756] leading-relaxed">
-              Nous accompagnons les entreprises et institutions dans la sécurisation de leurs systèmes d'information, 
-              la gestion des accès, la sûreté physique et la formation numérique.
-            </p>
+          
             
             <Button 
               variant="outline" 

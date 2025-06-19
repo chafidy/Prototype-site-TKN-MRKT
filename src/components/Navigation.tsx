@@ -33,7 +33,6 @@ const Navigation = () => {
   };
 
   const menuItems = [
-    { label: 'Accueil', id: 'hero' },
     { label: 'Nos Métiers', id: 'services' },
     { label: 'Domaines d\'Intervention', id: 'domains' },
     { label: 'Notre Processus', id: 'process' },
@@ -50,11 +49,17 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20 py-2">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
+            <button 
+              onClick={() => scrollToSection("hero")} 
+              className="flex items-center focus:outline-none"
+            >
+              <img
               src="/lovable-uploads/3664ed48-a9ad-467c-8611-8542dfa28799.png" 
               alt="TEKNET GROUP" 
-              className="h-16 w-auto"
+              className={`transition-all duration-300 ${isScrolled ? 'h-16' : 'h-24'} w-auto`}
             />
+           </button>
+            
           </div>
 
           {/* Desktop Menu */}

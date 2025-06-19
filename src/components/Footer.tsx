@@ -1,5 +1,5 @@
 
-import { Clock, Shield, Users, Settings } from "lucide-react";
+import { Clock, Shield, Users, Settings, Building2 } from "lucide-react";
 
 const Footer = () => {
   const guarantees = [
@@ -17,6 +17,11 @@ const Footer = () => {
       icon: Users,
       title: "85% clients",
       subtitle: "entreprises privées"
+    },
+    {
+      icon: Building2,
+      title: "15% clients",
+      subtitle: "secteur public"
     },
     {
       icon: Shield,
@@ -72,7 +77,7 @@ const Footer = () => {
     <footer className="bg-white py-16">
       <div className="container mx-auto px-4">
         {/* Guarantees */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 mb-16">
           {guarantees.map((item, index) => (
             <div key={index} className="text-center group">
               <div className="w-16 h-16 mx-auto mb-4 bg-[#e30613] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">

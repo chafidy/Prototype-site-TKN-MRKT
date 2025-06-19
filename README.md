@@ -12,7 +12,6 @@ Bienvenue dans le dépôt du **prototype frontend de Teknet**, une application w
 - 🎨 **Tailwind CSS** — Framework CSS utilitaire pour un design rapide et responsive
 
 
-
 ## 📁 Structure du projet
 
 ```
@@ -37,6 +36,9 @@ teknet/
 ## 🛠️ Installation & Lancement
 
 ### 1. Cloner le dépôt
+
+Pour commencer, assurez-vous d’avoir [Git](https://git-scm.com/) installé sur votre machine.
+
 
 ```bash
 git clone https://github.com/votre-utilisateur/teknet.git
@@ -127,7 +129,5 @@ Voir le fichier [`LICENSE`](./LICENSE) pour plus d’informations.
 
 Merci d’avoir visité ce dépôt. ✨
 Le futur de l’interface utilisateur commence ici avec **Teknet**.
-
-```
 
 
